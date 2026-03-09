@@ -102,7 +102,7 @@ export default function TestimonialsSection() {
         </h2>
 
         <div 
-          className="relative h-[430px] md:h-[460px] overflow-hidden px-4 sm:px-0"
+          className="relative h-[430px] md:h-[460px] overflow-hidden px-4 sm:px-0 pb-10 sm:pb-0"
           onMouseEnter={() => setIsManuallyPaused(true)}
           onMouseLeave={() => setIsManuallyPaused(false)}
         >
@@ -138,7 +138,7 @@ export default function TestimonialsSection() {
               return (
                 <article
                   key={testimonial.name}
-                  className="absolute left-1/2 top-1/2 rounded-[24px] sm:rounded-[28px] md:rounded-[36px] border bg-white px-4 py-6 sm:px-6 sm:py-8 md:px-12 md:py-12 text-center transition-[transform,opacity] duration-700 ease-[cubic-bezier(0.22,0.61,0.36,1)]"
+                  className="absolute left-1/2 top-[46%] md:top-1/2 rounded-[24px] sm:rounded-[28px] md:rounded-[36px] border bg-white px-4 py-6 sm:px-6 sm:py-8 md:px-12 md:py-12 text-center transition-[transform,opacity] duration-700 ease-[cubic-bezier(0.22,0.61,0.36,1)]"
                   style={{
                     width,
                     transform: `translate(-50%, -50%) translateX(${translateX}%) scale(${scaleValue})`,

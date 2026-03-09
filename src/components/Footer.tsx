@@ -51,7 +51,7 @@ export default function Footer() {
                 <a href="/#irs" className="hover:text-white transition font-normal">Roadside Suspension</a>
               </li>
               <li>
-                <a href="/#about" className="hover:text-white transition font-normal">Our Guarantee</a>
+                <a href="/#our-guarantee" className="hover:text-white transition font-normal">Our Guarantee</a>
               </li>
             </ul>
           </div>

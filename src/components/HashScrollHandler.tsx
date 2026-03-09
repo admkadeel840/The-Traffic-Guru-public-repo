@@ -13,7 +13,8 @@ export default function HashScrollHandler() {
           const element = document.querySelector(hash)
           if (element) {
             const elementPosition = element.getBoundingClientRect().top
-            const offsetPosition = elementPosition + window.pageYOffset - 100 // 100px offset for navbar
+            // Use a slightly larger offset so the section title isn't hidden behind the navbar
+            const offsetPosition = elementPosition + window.pageYOffset - 140
             
             window.scrollTo({
               top: offsetPosition,

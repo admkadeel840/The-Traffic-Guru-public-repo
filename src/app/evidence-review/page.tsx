@@ -19,7 +19,7 @@ function EvidenceReviewContent() {
       <Navbar variant="internal" />
 
       {/* Hero Section */}
-      <section className="relative h-[336px] flex items-center justify-center overflow-hidden">
+      <section className="relative h-[336px] flex items-center justify-center overflow-hidden bg-[#020617]">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
@@ -33,6 +33,9 @@ function EvidenceReviewContent() {
             style={{ objectPosition: 'center top' }}
           />
         </div>
+
+        {/* Dark overlay to ensure text is visible even before image loads */}
+        <div className="absolute inset-0 z-10 bg-black/40" />
 
         {/* Hero Content */}
         <motion.div 

@@ -85,6 +85,7 @@ function GuaranteeCard({ index, className = "" }: { index: number; className?: s
   
   return (
     <motion.article 
+      id="our-guarantee"
       ref={ref}
       initial={{ opacity: 0, y: 24 }}
       whileInView={{ opacity: 1, y: 0 }}

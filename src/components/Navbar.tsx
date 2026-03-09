@@ -83,7 +83,7 @@ export default function Navbar({ variant = 'internal', heroRef }: NavbarProps) {
               <a href="/#irs" className="text-[14px] text-[#0F172A] hover:text-[#E10B0A] transition-colors font-normal whitespace-nowrap flex-shrink-0">Roadside Suspension</a>
               <a href="/#disclosure-review" className="text-[14px] text-[#0F172A] hover:text-[#E10B0A] transition-colors font-normal whitespace-nowrap flex-shrink-0">Evidence Review</a>
               <a href="/#about" className="text-[14px] text-[#0F172A] hover:text-[#E10B0A] transition-colors font-normal whitespace-nowrap flex-shrink-0">About Us</a>
-              <a href="/#about" className="text-[14px] text-[#0F172A] hover:text-[#E10B0A] transition-colors font-normal whitespace-nowrap flex-shrink-0">Our Guarantee</a>
+              <a href="/#our-guarantee" className="text-[14px] text-[#0F172A] hover:text-[#E10B0A] transition-colors font-normal whitespace-nowrap flex-shrink-0">Our Guarantee</a>
               <a href="/#contact" className="text-[14px] text-[#0F172A] hover:text-[#E10B0A] transition-colors font-normal whitespace-nowrap flex-shrink-0">Contact</a>
             </div>
           </div>
@@ -152,7 +152,7 @@ export default function Navbar({ variant = 'internal', heroRef }: NavbarProps) {
                   About Us
                 </a>
                 <a 
-                  href="/#about" 
+                  href="/#our-guarantee" 
                   onClick={() => setIsMobileMenuOpen(false)}
                   className="block px-4 py-2 text-base text-[#0F172A] hover:text-[#E10B0A] hover:bg-gray-50 rounded-lg transition-colors"
                 >
