@@ -34,9 +34,6 @@ export default function Footer() {
               <li>
                 <a href="/#contact" className="hover:text-white transition font-normal">Contact</a>
               </li>
-              <li>
-                <a href="#" className="hover:text-white transition font-normal">Calgary, AB, Canada</a>
-              </li>
             </ul>
           </div>
 

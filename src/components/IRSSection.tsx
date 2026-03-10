@@ -60,16 +60,16 @@ export default function IRSSection() {
                   Don&apos;t delay. IRS cases move fast so must your defence.
                 </p>
               </div>
-              <div className="mt-6 sm:mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
+              <div className="mt-6 sm:mt-8 flex flex-col gap-3 md:flex-row md:flex-wrap md:items-center">
                 <a
                   href="#contact"
-                  className="inline-flex items-center justify-center rounded-[14px] bg-[#E10B0A] h-[48px] sm:h-[52px] px-6 sm:px-8 text-base sm:text-base font-semibold text-white shadow-[0_4px_14px_rgba(225,11,10,0.25)] hover:bg-[#c00a09] hover:shadow-[0_6px_20px_rgba(225,11,10,0.3)] transition-all duration-200 whitespace-nowrap"
+                  className="inline-flex w-full items-center justify-center rounded-[14px] bg-[#E10B0A] h-[48px] sm:h-[52px] px-6 sm:px-8 md:px-5 lg:px-8 text-base sm:text-base font-semibold text-white shadow-[0_4px_14px_rgba(225,11,10,0.25)] hover:bg-[#c00a09] hover:shadow-[0_6px_20px_rgba(225,11,10,0.3)] transition-all duration-200 whitespace-nowrap md:flex-1 md:min-w-0"
                 >
                   Contact Us Today!
                 </a>
                 <a
                   href="/on-road-suspension"
-                  className="inline-flex items-center justify-center rounded-[14px] border border-[#CBD5E1] h-[48px] sm:h-[52px] px-6 sm:px-8 text-base sm:text-base font-semibold text-[#0F172A] shadow-sm hover:shadow-md transition-all duration-200 whitespace-nowrap bg-white"
+                  className="inline-flex w-full items-center justify-center rounded-[14px] border border-[#CBD5E1] h-[48px] sm:h-[52px] px-6 sm:px-8 md:px-5 lg:px-8 text-base sm:text-base font-semibold text-[#0F172A] shadow-sm hover:shadow-md transition-all duration-200 whitespace-nowrap bg-white md:flex-1 md:min-w-0"
                 >
                   More About IRS
                 </a>
